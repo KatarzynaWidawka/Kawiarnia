@@ -12,13 +12,12 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
-    @BindView(R.id.wybierzdane)
-    Button WybierzDane;
+    //@BindView(R.id.wybierzdane)
+    //Button WybierzDane;
 
     @OnClick(R.id.wybierzdane) //Ustawienie przycisku w MainActivity tak aby po kliknięciu przeszło do MainActivity2
-    void onClick(View v){
+    void OnClick(){
         Intent intent = new Intent(MainActivity.this, Main2Activity.class);
-        Bundle bundle = new Bundle();
         startActivity(intent);}
 
     @Override

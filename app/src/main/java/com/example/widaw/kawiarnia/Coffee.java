@@ -5,4 +5,17 @@ package com.example.widaw.kawiarnia;
  */
 
 public class Coffee {
+    public Coffee(String NazwaKawy) {
+       this.NazwaKawy = NazwaKawy;
+    }
+
+    private String NazwaKawy;
+
+    public String getNazwaKawy() {
+        return this.NazwaKawy;
+    }
+
+    public void setNazwaKawy(String nazwaKawy) {
+        this.NazwaKawy = NazwaKawy;
+    }
 }
